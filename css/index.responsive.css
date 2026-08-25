@@ -124,7 +124,10 @@ header button.bttn:nth-of-type(1),
     width: 100%;
     padding: 20px 25px;
   }
-
+#Order .container .row .item1{
+    width: 90%;
+    margin:auto ;
+  }
 }
 /* 450 */
 @media (min-width: 371px) and (max-width: 1300px) {
