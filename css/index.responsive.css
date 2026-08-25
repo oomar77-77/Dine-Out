@@ -290,9 +290,9 @@ header #carouselExampleControls > button:nth-of-type(2) {
     #carouselExample .item2.active .container .row .pz{
     top: 10%;
 }
-#carouselExample .carousel-item:nth-of-type(3) .item1 img{
+/* #carouselExample .carousel-item:nth-of-type(3) .item1 img{
     top: 10%;
-}
+} */
 header .buttons button.bttn:nth-of-type(1) {
   right: 150px;
 }
