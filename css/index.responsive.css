@@ -242,13 +242,6 @@ header #carouselExample .carousel-inner .carousel-item:nth-of-type(1) .container
 #carouselExample .carousel-item:nth-of-type(3) .content .item p.text{
     font-size: 16px;
 }
-header button.bttn:nth-of-type(1),
- header button.bttn:nth-of-type(2) {
-    bottom: 20px;
-    width: 50px;
-    height: 50px;
-    font-size: 16px;
-  } 
  header #carouselExampleControls > button:nth-of-type(1) {
     right: 130px;
   }
@@ -306,6 +299,13 @@ header .buttons button.bttn:nth-of-type(1) {
 header .buttons button.bttn:nth-of-type(2){
    right: 70px;
 }
+    header button.bttn:nth-of-type(1),
+ header button.bttn:nth-of-type(2) {
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+  } 
 #Testimonials .container .row .item h4{
     font-size: 20px;
 }
