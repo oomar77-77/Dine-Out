@@ -115,7 +115,7 @@ header button.bttn:nth-of-type(1),
   }
 #Menu .nav.nav-pills button.nav-link.active::after {
     border-bottom-width: 10px;
-  }
+  } 
 #Menu .nav.nav-pills button.nav-link.active::after{
     right: initial;
 }
@@ -394,28 +394,19 @@ header .buttons button.bttn:nth-of-type(2){
     overflow: hidden;
 }
 #Menu .nav.nav-pills button.nav-link::after {
-  content: "";
-  display: block;
-  border: 10px solid transparent;
-  border-right-width: 0;
-  border-right-color: #fff;
-  bottom: initial;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: -15px;
-  transition-duration: .3s;
-} 
-#Menu .nav.nav-pills button.nav-link.active::after {
     border: 10px solid transparent;
-    border-right-width: 10px;
+    border-right-width: 0;
     border-right-color: #fff;
     top: 50%;
-    right: 0%;
-    left: initial;
+    bottom: initial;
+    right: 0;
+    left: 50%;
     transform: translateY(-50%);
-    right: 0px;
-}
+  }
+#Menu .nav.nav-pills button.nav-link.active::after {
+    border-right-width: 10px;
+    
+  } 
 #Menu .tab-content .tab-pane .item .body p{
     font-size: 15px;
 }
