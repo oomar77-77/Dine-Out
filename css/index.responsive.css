@@ -1,0 +1,443 @@
+/* 350 */
+@media (max-width: 1300px) {
+header #carouselExample .carousel-inner .carousel-item:nth-of-type(1) .container .content h2{
+    font-size: 40px;
+}
+header #carouselExample .carousel-inner .carousel-item:nth-of-type(1) .container .content p{
+    width: 95%;
+    font-size: 12px;
+}
+a.btn{
+    font-size: 12px;
+}
+#carouselExample .item2 .container .row .pz,
+#carouselExample .carousel-item:nth-of-type(3) .item1 img{
+    display: none;
+}
+#carouselExample .item2.active .container .row .item .text{
+    font-size: 12px;
+}
+#carouselExample .item2 .container .row .item a{
+    font-size: 12px;
+}
+#carouselExample .carousel-item:nth-of-type(3) .content .item p.text{
+    font-size: 12px;
+}
+#carouselExample .carousel-item:nth-of-type(3) .content .cover{
+    column-gap: 40px;
+}
+#carouselExample .carousel-item:nth-of-type(3) .content img{
+    width: 60px;
+}
+header .buttons button.bttn:nth-of-type(1){
+    right: 90px;
+}
+header .buttons button.bttn:nth-of-type(2){
+    right: 30px;
+}
+header button.bttn:nth-of-type(1),
+ header button.bttn:nth-of-type(2) {
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  } 
+#About{
+    padding-block:50px;
+}
+.title .h2{
+    font-size: 35px;
+}
+.title h6{
+    font-size: 20px;
+}
+#About .container .row .item p.h5{
+    font-size: 16px;
+}
+#About .container .row .item .row .item h5{
+    font-size: 14px;
+}
+#About .container .row .part2 .item{
+    height: 200px;
+} 
+#Testimonials{
+    height: initial;
+    background: linear-gradient(to right,#2c5364,#203a43,#0f2027);
+    padding: 50px;
+}
+#Testimonials video{
+  display: none;
+}
+#Testimonials .container{
+    position: initial;
+    width: initial;
+}
+#Testimonials .container h2{
+    font-size: 18px;
+}
+#Testimonials .container p.text{
+     width:326px; 
+     font-size: 12px;
+     font-weight: 200;
+}
+
+#Menu .nav.nav-pills button.nav-link {
+    padding: 15px 16px;
+    
+}
+#Menu .nav.nav-pills button.nav-link:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+#Menu .nav.nav-pills button.nav-link:last-child{
+    border-radius: 0 5px 5px 0;
+   }
+#Menu .nav.nav-pills {
+    overflow: auto;
+    
+  }
+  #Menu .nav.nav-pills button.nav-link{
+    width: max-content;
+    flex-shrink: 0;
+  }
+  #Menu .nav.nav-pills button.nav-link::after {
+    border: 10px solid transparent;
+    border-bottom-width: 0;
+    border-bottom-color: #fff;
+    top: initial;
+    bottom: 0%;
+    right: initial;
+    left: 50%;
+    transform: translate(-50%);
+  }
+#Menu .nav.nav-pills button.nav-link.active::after {
+    border-bottom-width: 10px;
+  }
+#Menu .nav.nav-pills button.nav-link.active::after{
+    right: initial;
+}
+#Team{
+    
+    padding-bottom:100px;
+}
+ #Team .row .chef:not(:last-child) .item {
+    margin-bottom: 70px;
+  }
+  #Team .row .item {
+    max-width: 280px;
+    margin: auto;
+    margin-bottom: auto;
+}
+ #Order img.delivery {
+    display: none;
+ }
+  #Order .container .row .item1{
+    width: 100%;
+    padding: 20px 25px;
+  }
+#Order .container .row .item1{
+    width: 90%;
+    margin:auto ;
+  }
+}
+/* 450 */
+@media (min-width: 371px) and (max-width: 1300px) {
+header #carouselExample .carousel-inner .carousel-item:nth-of-type(1) .container .content h2{
+    font-size: 50px;
+}
+header #carouselExample .carousel-inner .carousel-item:nth-of-type(1) .container .content p{
+    width: 100%;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+header button.bttn:nth-of-type(1),
+ header button.bttn:nth-of-type(2){
+    top: -45px;
+    
+
+ }
+a.btn{
+    font-size: 14px;
+}
+#carouselExample .item2.active .container .row .item .text{
+    font-size: 14px;
+}
+#carouselExample .item2 .container .row .item a{
+    font-size: 18px;
+}
+#carouselExample .carousel-item:nth-of-type(3) .content a.btn {
+    font-size: 18px;
+}
+#carouselExample .carousel-item:nth-of-type(3) .content .cover{
+    column-gap: 60px;
+}
+#About .container .row .item p.h5{
+    font-size: 20px;
+}
+#About .container .row .item .row .item h5{
+    font-size: 18px;
+}
+#Testimonials .container h2{
+    font-size: 20px;
+}
+#Testimonials .container p.text{
+    width:426px;
+    font-weight: initial;
+}
+}
+/* 650 */
+@media (min-width: 577px) and (max-width: 1300px) {
+    header #carouselExample .carousel-inner .carousel-item:nth-of-type(1) .container .content h2{
+    font-size: 60px;
+}
+header #carouselExample .carousel-inner .carousel-item:nth-of-type(1) .container .content p{
+    width: 88%;
+    font-weight: initial;
+    font-size: 14px;
+}
+header button.bttn:nth-of-type(1),
+ header button.bttn:nth-of-type(2){
+    top: initial;
+ }
+ #carouselExample .item2 .container .row .item hr{
+    width: 75%;
+    margin: auto;
+    
+ }
+#carouselExample .item2 .box a.btn{
+    margin-bottom: 15px;
+}
+a.btn{
+    font-size: 18px;
+}
+#carouselExample .item2.active .container .row .item .text{
+    font-weight: 400;
+    font-size: 14px;
+     width: 73%;
+  
+    margin: auto;
+    margin-top:15px;
+}
+#carouselExample .carousel-item:nth-of-type(3) .content .cover{
+    column-gap: 80px;
+}
+#carouselExample .carousel-item:nth-of-type(3) .content img{
+    width: 40px;
+}
+#About .container .row .item p.h5{
+    font-size: 25px;
+}
+#About .container .row .part2 .item{
+    height: 300px;
+} 
+#Testimonials .container h2{
+    font-size: 30px;
+}
+#Testimonials .container p.text{
+    width:526px; 
+    font-size: 16px;
+}
+#Menu .nav.nav-pills {
+   display: flex;
+   justify-content: center;
+}
+}
+/* 850 */
+@media (min-width: 769px) and (max-width: 1300px) {
+header #carouselExample .carousel-inner .carousel-item:nth-of-type(1) .container .content h2{
+    font-size: 70px;
+}
+header #carouselExample .carousel-inner .carousel-item:nth-of-type(1) .container .content p{
+    width: 65%;
+    font-size: 14px;
+}
+#carouselExample .item2 .container .row .pz{
+    display: initial;
+   position: relative;
+  top: -200%;
+  display: block;
+  animation-name: animate-1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+    
+    
+}
+#carouselExample .item2.active .container .row .pz{
+     transition-duration: 1s;
+    transition-delay: .5s;
+    top: 20%;
+    animation-play-state: running;
+}
+ #carouselExample .item2 .container .row .item hr{
+    width: initial;
+    margin: initial;
+    
+ }
+ #carouselExample .item2.active .container .row .item .text{
+    width: initial;
+}
+#carouselExample .item2.active .container .row .item .text{
+    width: 100%;
+}
+#carouselExample .carousel-item:nth-of-type(3) .item1 img{
+    display: initial;
+    width:100%;
+     transform: translateY(15%);
+}
+#carouselExample .carousel-item:nth-of-type(3) .content .item p.text{
+    font-size: 16px;
+}
+ header #carouselExampleControls > button:nth-of-type(1) {
+    right: 130px;
+  }
+header #carouselExampleControls > button:nth-of-type(2) {
+    right: 50px;
+  }
+#About .container .row .item p.h5{
+    font-size: 18px;
+}
+#About .container .row .part2 .item{
+    height: 250px;
+} 
+#Testimonials video{
+  display: block;
+}
+#Testimonials .container .row .item h4{
+    font-size: 17px;
+}
+#Testimonials .container .row .item {
+    width: 160px;
+    height: 160px;
+}
+#Testimonials .container p.text{
+    width:626px;
+    font-size: 16px;
+}
+  #Team {
+    padding-bottom: 40px;
+  }
+#Team .row .item {
+    width: initial;
+    margin: auto;
+    margin-bottom: auto;
+}
+#Team .container .row .item .chef-detail .h4{
+    font-size: 18px;
+}
+#Order img.delivery {
+    display: initial;
+ }
+  #Order .container .row .item1{
+    width: 100%;
+    padding: 25px 30px;
+    margin: auto;
+  }
+}
+/* 1050 */
+@media (min-width: 992px) and (max-width: 1300px) {
+    #carouselExample .item2.active .container .row .pz{
+    top: 10%;
+}
+
+header .buttons button.bttn:nth-of-type(1) {
+  right: 150px;
+}
+header .buttons button.bttn:nth-of-type(2){
+   right: 70px;
+}
+    header button.bttn:nth-of-type(1),
+ header button.bttn:nth-of-type(2) {
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+  } 
+   #carouselExample .carousel-item:nth-of-type(3) .item1{
+   
+   }
+  #carouselExample .carousel-item:nth-of-type(3) .item1 img{
+    width:70%;
+    /*  transform: translateY(20%); */
+  }
+#Testimonials .container .row .item h4{
+    font-size: 20px;
+}
+#About .container .row .item p.h5{
+    font-size: 20px;
+}
+#Testimonials .container h2{
+    font-size: 35px;
+}
+#Testimonials .container .row .item {
+    width: 220px;
+    height: 170px;
+}
+#Testimonials .container p.text{
+    width:770px; 
+    font-size: 16px;
+}
+
+ #Menu .nav.nav-pills button.nav-link:first-child {
+    border-radius: 5px 5px 0 0;
+  }
+ #Menu .nav.nav-pills button.nav-link:last-child{
+    border-radius: 0 0 5px 5px;
+   }
+   .nav-pills .nav-link {
+    position: relative;
+    overflow: hidden;
+}
+#Menu .nav.nav-pills button.nav-link::after {
+  content: "";
+  display: block;
+  border: 10px solid transparent;
+  border-right-width: 0;
+  border-right-color: #fff;
+  bottom: initial;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -15px;
+  transition-duration: .3s;
+} 
+#Menu .nav.nav-pills button.nav-link.active::after {
+    border: 10px solid transparent;
+    border-right-width: 10px;
+    border-right-color: #fff;
+    top: 50%;
+    right: 0%;
+    left: initial;
+    transform: translateY(-50%);
+    right: 0px;
+}
+#Menu .tab-content .tab-pane .item .body p{
+    font-size: 15px;
+}
+#Team .container .row .item .chef-detail .h4{
+    font-size: 20px;
+}
+#Order .container .row .item1 {
+    width: 80%;
+    margin: auto;
+  }
+ 
+}
+/* 1250 */
+@media (min-width: 1181px) and (max-width: 1300px) {
+    #carouselExample .item2.active .container .row .pz{
+    top:-3%;
+    width: 90%;
+}
+#carouselExample .carousel-item:nth-of-type(3) .item1 img{
+    top: 20px;
+   
+}
+#Testimonials .container .row .item {
+    width: 265px;
+}
+#Testimonials .container p.text{
+     width:870px;
+} 
+}
