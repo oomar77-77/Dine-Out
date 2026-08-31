@@ -120,8 +120,7 @@ header button.bttn:nth-of-type(1),
     right: initial;
 }
 #Team{
-    
-    padding-bottom:100px;
+    padding-bottom: 80px;
 }
  #Team .row .chef:not(:last-child) .item {
     margin-bottom: 70px;
