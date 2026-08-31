@@ -60,10 +60,14 @@ header button.bttn:nth-of-type(1),
 #About .container .row .part2 .item{
     height: 200px;
 } 
-#Testimonials{
+   #Testimonials{
     height: initial;
-    background: linear-gradient(to right,#2c5364,#203a43,#0f2027);
-    padding: 50px;
+    background-image:url("../images/video_image-min.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:40px;
 }
 #Testimonials video{
   display: none;
