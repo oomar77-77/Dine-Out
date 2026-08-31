@@ -773,7 +773,7 @@ header #carouselExampleControls > button i {
     position: relative;
     overflow: hidden;
 }
- #Menu .nav.nav-pills button.nav-link::after {
+  #Menu .nav.nav-pills button.nav-link::after {
   content: "";
   display: block;
   border: 10px solid transparent;
@@ -786,6 +786,7 @@ header #carouselExampleControls > button i {
   transition-duration: .3s;
 }
 #Menu .nav.nav-pills button.nav-link.active::after{
+    border-right-width: 10px;
     right: 0px;
 }
 #Menu .nav.nav-pills button.nav-link img {
