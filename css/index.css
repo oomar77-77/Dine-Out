@@ -934,7 +934,7 @@ header #carouselExampleControls > button i {
 /* Team section */
 #Team{
     background: linear-gradient(to right,#2c5364,#203a43,#0f2027);
-    padding-bottom:40px;
+    padding-bottom:80px;
 }
 #Team .row .col-md-4{
     height: 100%;
