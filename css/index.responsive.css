@@ -435,4 +435,6 @@ header .buttons button.bttn:nth-of-type(2){
 #Testimonials .container p.text{
      width:870px;
 } 
+#Team{
+    padding-bottom:60px;
 }
