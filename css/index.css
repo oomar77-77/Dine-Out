@@ -337,7 +337,7 @@ header #carouselExampleControls > button i {
   transition-duration: .5s;
 }
 #carouselExample .item2 .container .row .item img.image{
-    transform: translateY(-100%);
+     transform: translateY(-150%);
     transition-duration: .5s;
     transition-delay: .7s;
     position: relative;
