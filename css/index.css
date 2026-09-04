@@ -466,6 +466,7 @@ header #carouselExampleControls > button i {
     animation-duration: 2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     opacity: 0;
     margin: auto;
   display: block;
