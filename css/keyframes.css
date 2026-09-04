@@ -9,7 +9,7 @@
 }
 @keyframes animate-2 {
     from{
-        transform: translateY(25%);
+        transform: translateY(20%);
     }
     to{
         transform: translateY(25%);
