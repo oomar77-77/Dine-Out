@@ -424,10 +424,6 @@ header .buttons button.bttn:nth-of-type(2){
     top:-3%;
     width: 90%;
 }
-#carouselExample .carousel-item:nth-of-type(3) .item1 img{
-    top: 20px;
-   
-}
 #Testimonials .container .row .item {
     width: 265px;
 }
