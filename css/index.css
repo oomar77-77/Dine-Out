@@ -447,6 +447,7 @@ header #carouselExampleControls > button i {
     max-width: 100%;
   position: relative;
   top: -200%;
+    transform: translateY(-420%)
   display: block;
   animation-name: animate-1;
   animation-duration: 10s;
