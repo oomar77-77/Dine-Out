@@ -398,13 +398,13 @@ header .buttons button.bttn:nth-of-type(2){
     border-right-color: #fff;
     top: 50%;
     bottom: initial;
-    right: 0;
+   
     left: 50%;
     transform: translateY(-50%);
   }
 #Menu .nav.nav-pills button.nav-link.active::after {
     border-right-width: 10px;
-    
+     right: 0;
   } 
 #Menu .tab-content .tab-pane .item .body p{
     font-size: 15px;
